@@ -1,3 +1,44 @@
-.remove-padding {
-    padding: 0;
+@media all and (max-width:575px) {
+    .first-img{
+        overflow: hidden;
+    }
+    .title {
+        font-size: 34px;
+        text-decoration: none;
+        line-height: 30px;
+        font-weight: bold;
+        top: 400px;
+        left: 10px;
+        transition: all 1s ease 0s;
+    }
+
+    .title:hover {
+        color: #d5001c !important;
+    }
+
+    .span {
+        font-size: 22px;
+    }
+
+    .arrow-big {
+        font-size: 34px;
+    }
+
+    .four-dots {
+        text-align: center;
+        top: 470px;
+        font-size: 60px;
+        line-height: 10px;
+        font-weight: bold;
+    }
 }
+
+@media all and (min-width:576px) and (max-width:767px) {}
+
+@media all and (min-width:768px) and (max-width:991px) {}
+
+@media all and (min-width:992px) and (max-width:1199px) {}
+
+@media all and (min-width:1200px) and (max-width:1399px) {}
+
+@media all and (min-width:1400px) {}
