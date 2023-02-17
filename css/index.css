@@ -1,22 +1,19 @@
 @media all and (max-width:575px) {
-    .first-img{
-        overflow: hidden;
-    }
     .title {
         font-size: 34px;
         text-decoration: none;
         line-height: 30px;
         font-weight: bold;
-        top: 400px;
         left: 10px;
-        transition: all 1s ease 0s;
+        bottom: 50px;
+        transition: all 500ms ease 0s;
     }
 
     .title:hover {
         color: #d5001c !important;
     }
 
-    .span {
+    .part1-span {
         font-size: 22px;
     }
 
@@ -26,10 +23,46 @@
 
     .four-dots {
         text-align: center;
-        top: 470px;
+        bottom: 0;
+        margin-bottom: -5px;
         font-size: 60px;
-        line-height: 10px;
         font-weight: bold;
+        color: #e3e4e4;
+    }
+
+    .link {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        transition: all 500ms ease 0s;
+        bottom: 0;
+        left: 5px;
+    }
+
+    .pic:hover .link {
+        color: #d5001c;
+    }
+
+    .button {
+        width: 175px;
+        height: 51px;
+        background-color: #313639;
+        transition: all 500ms ease 0s;
+        line-height: 51px;
+        text-align: center;
+    }
+
+    .car:hover .button {
+        background-color: #d5001c;
+    }
+
+    .five-dots {
+        text-align: center;
+        bottom: 0;
+        margin-top: -30px;
+        font-size: 50px;
+        font-weight: bold;
+        color: #e3e4e4;
     }
 }
 
