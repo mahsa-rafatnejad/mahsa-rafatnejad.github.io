@@ -137,7 +137,8 @@
     .bold {
         font-weight: bold;
     }
-    .text-box-small{
+
+    .text-box-small {
         z-index: 2;
         top: 30px;
         left: 20px;
@@ -145,6 +146,52 @@
         /* display: none; */
         transition: all 500ms ease 0s;
     }
+
+    .part6-link {
+        text-decoration: none;
+        transition: all 500ms ease 0s;
+    }
+
+    .red-line {
+        height: 4px;
+        width: 100%;
+        bottom: 24px;
+        transition: all 500ms ease 0s;
+    }
+
+    .red:hover .part6-link {
+        color: #d5001c !important;
+    }
+
+    .red:hover .red-line {
+        display: block !important;
+    }
+
+    .gray-line {
+        height: 1px;
+        width: 100px;
+        background-color: #d2d3d4;
+    }
+    .footer-link{
+        transition: all 500ms ease 0s;
+    }
+    .footer-link:hover{
+       text-decoration: none;
+       color: #d5001c !important;
+    }
+    .black{
+        background-color: #191f22;
+    }
+    .share-page{
+        height: 50px;
+        width: 100%;
+        text-decoration: none;
+        line-height: 50px;
+    }
+    .gray{
+        background-color: #313639;
+    }
+   
 }
 
 @media all and (min-width:576px) and (max-width:767px) {}
