@@ -159,11 +159,11 @@
         transition: all 500ms ease 0s;
     }
 
-    .red:hover .part6-link {
+    .red-box:hover .part6-link {
         color: #d5001c !important;
     }
 
-    .red:hover .red-line {
+    .red-box:hover .red-line {
         display: block !important;
     }
 
@@ -172,26 +172,33 @@
         width: 100px;
         background-color: #d2d3d4;
     }
-    .footer-link{
+
+    .footer-link {
         transition: all 500ms ease 0s;
     }
-    .footer-link:hover{
-       text-decoration: none;
-       color: #d5001c !important;
+
+    .footer-link:hover {
+        text-decoration: none;
+        color: #d5001c !important;
     }
-    .black{
+
+    .black {
         background-color: #191f22;
     }
-    .share-page{
+
+    .share-page {
         height: 50px;
         width: 100%;
         text-decoration: none;
         line-height: 50px;
     }
-    .gray{
+
+    .gray {
         background-color: #313639;
     }
-   
+
+    
+
 }
 
 @media all and (min-width:576px) and (max-width:767px) {}
