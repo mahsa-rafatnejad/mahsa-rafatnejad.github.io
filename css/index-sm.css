@@ -10,3 +10,18 @@
 .custom-padding-title2 {
     padding-left: 35px;
 }
+
+.parts-title {
+    font-size: 26px;
+}
+
+.title3 {
+    font-size: 22px;
+    bottom: 0;
+    left: 5px;
+    transition: all 500ms ease 0s;
+}
+
+.pic:hover .title3 {
+    color: #d5001c;
+}

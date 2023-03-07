@@ -8,3 +8,46 @@
     left: 0;
 }
 
+.title2 {
+    font-weight: 700;
+}
+
+.parts-title {
+    font-weight: 600;
+}
+
+.title3 {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.white-button {
+    width: 165px;
+    height: 50px;
+    transition: all 500ms ease 0s;
+    z-index: 1;
+    bottom: 20px;
+    left: 20px;
+}
+
+.white-button:hover {
+    background-color: #d5001c !important;
+    color: white !important;
+}
+
+.red-button {
+    width: 132px;
+    height: 48px;
+    transition: all 500ms ease 0s;
+    z-index: 1;
+    bottom: 21px;
+    left: 200px;
+}
+
+.red-button:hover {
+    color: #d5001c;
+    --bs-btn-hover-bg: rgba(0, 0, 0, 0);
+    --bs-btn-hover-border-color: #d5001c;
+}

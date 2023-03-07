@@ -7,22 +7,26 @@
     font-size: 20px;
 }
 
+.custom-padding-title2 {
+    padding-left: 30px;
+}
+
+.parts-title {
+    font-size: 24px;
+}
+
 .title3 {
-    text-decoration: none;
-    color: white;
     font-size: 20px;
-    transition: all 500ms ease 0s;
     bottom: 0;
     left: 5px;
+    transition: all 500ms ease 0s;
 }
 
 .pic:hover .title3 {
     color: #d5001c;
 }
 
-.custom-padding-title2{
-    padding-left: 30px;
-}
+/* END */
 
 .button1 {
     width: 175px;
