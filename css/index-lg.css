@@ -4,5 +4,9 @@
 }
 
 .title2 {
-    font-size: 30px;
+    font-size: 24px;
+}
+
+.custom-padding-title2 {
+    padding-left: 45px;
 }

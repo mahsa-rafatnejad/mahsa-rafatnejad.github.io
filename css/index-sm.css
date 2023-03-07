@@ -6,3 +6,7 @@
 .title2 {
     font-size: 20px;
 }
+
+.custom-padding-title2 {
+    padding-left: 35px;
+}

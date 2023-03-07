@@ -1,8 +1,12 @@
 .title1 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
 }
 
 .title2 {
-    font-size: 30px;
+    font-size: 22px;
+}
+
+.custom-padding-title2 {
+    padding-left: 40px;
 }
