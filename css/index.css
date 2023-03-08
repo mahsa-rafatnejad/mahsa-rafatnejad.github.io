@@ -48,6 +48,164 @@
 
 .red-button:hover {
     color: #d5001c;
-    --bs-btn-hover-bg: rgba(0, 0, 0, 0);
-    --bs-btn-hover-border-color: #d5001c;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #d5001c;
+}
+
+.gray-button {
+    height: 50px;
+    background-color: #313639;
+    transition: all 500ms ease 0s;
+}
+
+.car:hover .gray-button {
+    background-color: #d5001c;
+}
+
+.gray-button:hover {
+    background-color: #d5001c;
+}
+
+.five-dots {
+    text-align: center;
+    bottom: 0;
+    margin-top: -30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #e3e4e4;
+}
+
+.title4 {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+    transition: all 500ms ease 0s;
+}
+
+.pic:hover .title4 {
+    color: #d5001c;
+}
+
+.padding12 {
+    padding: 0 12px;
+}
+
+.padding-end-half {
+    padding-right: 2px;
+}
+
+.padding-start-half {
+    padding-left: 2px;
+}
+
+.gray-box1 {
+    width: 50px;
+    height: 50px;
+    background-color: #323639;
+    bottom: 4px;
+    right: 0px;
+    z-index: 2;
+}
+
+.gray-box2 {
+    width: 50px;
+    height: 50px;
+    background-color: #323639;
+    bottom: 0px;
+    right: 2px;
+    z-index: 2;
+}
+
+.gray-box3 {
+    width: 50px;
+    height: 50px;
+    background-color: #323639;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.icon {
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.brightness {
+    transition: all 500ms ease 0s;
+}
+
+.box-small:hover .brightness {
+    filter: brightness(30%);
+}
+
+.gradiant {
+    z-index: 1;
+    width: 100%;
+    height: 98%;
+    transition: all 500ms ease 0s;
+}
+
+.box-big:hover .gradiant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%), rgba(0, 0, 0, 90%));
+}
+
+.circle-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.text-box-big {
+    z-index: 2;
+    bottom: 10px;
+    left: 20px;
+    line-height: 15px;
+    display: none;
+    transition: all 500ms ease 0s;
+}
+
+.box-big:hover .text-box-big {
+    display: block;
+}
+
+.text-box-small {
+    z-index: 2;
+    top: 30px;
+    left: 20px;
+    line-height: 15px;
+    display: none;
+    transition: all 500ms ease 0s;
+}
+
+.box-small:hover .text-box-small {
+    display: block;
+}
+
+.custom-width {
+    width: 133px;
+}
+
+.part6-link {
+    text-decoration: none;
+    transition: all 500ms ease 0s;
+}
+
+.red-line {
+    height: 4px;
+    width: 100%;
+    bottom: 24px;
+    transition: all 500ms ease 0s;
+}
+
+.red-box:hover .part6-link {
+    color: #d5001c !important;
+}
+
+.red-box:hover .red-line {
+    display: block !important;
 }
