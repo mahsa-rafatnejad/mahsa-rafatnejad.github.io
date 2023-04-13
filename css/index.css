@@ -1,3 +1,13 @@
+.logo {
+    z-index: 1;
+    top: 0;
+    left: 7vw;
+}
+
+.navbar{
+    height: 65px;
+}
+
 .carousel-caption:hover {
     color: #d5001c;
 }
