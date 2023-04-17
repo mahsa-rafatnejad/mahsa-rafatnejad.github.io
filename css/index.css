@@ -4,7 +4,7 @@
     left: 7vw;
 }
 
-.navbar{
+.navbar {
     height: 65px;
 }
 
@@ -15,7 +15,16 @@
 .carousel-caption {
     transition: all 500ms ease 0s;
     font-weight: bold !important;
-    left: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.custom-margin-bottom {
+    margin-bottom: 98px !important;
 }
 
 .title2 {
@@ -66,6 +75,8 @@
     height: 50px;
     background-color: #313639;
     transition: all 500ms ease 0s;
+    margin-bottom: -40px;
+
 }
 
 .car:hover .gray-button {
