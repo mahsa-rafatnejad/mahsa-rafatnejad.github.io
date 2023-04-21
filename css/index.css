@@ -1,3 +1,5 @@
+/* header */
+
 .logo {
     z-index: 1;
     top: 0;
@@ -8,6 +10,8 @@
     height: 65px;
 }
 
+/* part1 */
+
 .carousel-caption:hover {
     color: #d5001c;
 }
@@ -15,7 +19,8 @@
 .carousel-caption {
     transition: all 500ms ease 0s;
     font-weight: bold !important;
-    bottom: 0;
+    bottom: 40px;
+    left: 10px;
     padding: 0;
 }
 
@@ -30,6 +35,8 @@
 .title2 {
     font-weight: 700;
 }
+
+/* part2 */
 
 .parts-title {
     font-weight: 600;
@@ -71,11 +78,13 @@
     border-color: #d5001c;
 }
 
+/* part3 */
+
 .gray-button {
     height: 50px;
     background-color: #313639;
     transition: all 500ms ease 0s;
-    margin-bottom: -40px;
+    margin-bottom: -10px;
 
 }
 
@@ -87,14 +96,11 @@
     background-color: #d5001c;
 }
 
-.five-dots {
-    text-align: center;
-    bottom: 0;
-    margin-top: -30px;
-    font-size: 50px;
-    font-weight: bold;
-    color: #e3e4e4;
+.carousel-caption2 {
+    margin-bottom: -30px;
 }
+
+/* part4 */
 
 .title4 {
     text-decoration: none;
@@ -114,6 +120,8 @@
 .padding12 {
     padding: 0 12px;
 }
+
+/* part5 */
 
 .padding-end-half {
     padding-right: 2px;
@@ -137,11 +145,38 @@
     height: 50px;
     background-color: #323639;
     bottom: 0px;
-    right: 2px;
+    right: 4px;
     z-index: 2;
 }
 
 .gray-box3 {
+    width: 50px;
+    height: 50px;
+    background-color: #323639;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.gray-box4 {
+    width: 50px;
+    height: 50px;
+    background-color: #323639;
+    bottom: 4px;
+    right: 4px;
+    z-index: 2;
+}
+
+.gray-box5 {
+    width: 50px;
+    height: 50px;
+    background-color: #323639;
+    bottom: 4px;
+    right: 0px;
+    z-index: 2;
+}
+
+.gray-box6 {
     width: 50px;
     height: 50px;
     background-color: #323639;
@@ -167,8 +202,8 @@
 .gradiant {
     z-index: 1;
     width: 100%;
-    height: 98%;
-    transition: all 500ms ease 0s;
+    height: 99%;
+    transition: all 500ms ease 0s !important;
 }
 
 .box-big:hover .gradiant {
@@ -210,6 +245,8 @@
 .custom-width {
     width: 133px;
 }
+
+/* part6 */
 
 .part6-link {
     text-decoration: none;
