@@ -26,47 +26,27 @@
 <body>
     <!-- header-->
 
-    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <nav class="navbar navbar-expand bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/logo2.png"
                     class="border rounded-top-0 p-1 p-lg-0 bg-white position-absolute rounded-bottom logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#"><i class="fs-3 bi bi-person"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="fs-3 nav-link active no-hover" href="#">|</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                    <li class="d-none d-sm-block nav-item active">
+                        <a class="nav-link" href="#"><i class="fs-3 bi bi-list"></i> Menu</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                    <li class="d-block d-sm-none nav-item active">
+                        <a class="nav-link" href="#"><i class="fs-3 bi bi-list"></i></a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -92,9 +72,11 @@
                                 <img src="images/part1-1.jpg" class="d-block w-100">
                             </picture>
                             <div class="carousel-caption">
-                                <h5 class="text-start title1 arrow-before"><i
-                                        class="text-danger bi bi-chevron-right"></i>Sportmade.
-                                </h5>
+                                <div class="d-flex">
+                                    <p><i class="text-danger bi bi-chevron-right title1"></i></p>
+                                    <h5 class="text-start title1">Sportmade.
+                                    </h5>
+                                </div>
                                 <p class="text-start custom-padding-title2 title2">The new 911 Carrera T.</p>
                             </div>
                         </div>
@@ -104,9 +86,11 @@
                                 <img src="images/part1-2.webp" class="d-block w-100">
                             </picture>
                             <div class="carousel-caption">
-                                <h5 class="text-start title1"><i class="text-danger bi bi-chevron-right"></i>Composed
-                                    with passion.
-                                </h5>
+                                <div class="d-flex">
+                                    <p><i class="text-danger bi bi-chevron-right title1"></i></p>
+                                    <h5 class="text-start title1">Composed with passion.
+                                    </h5>
+                                </div>
                                 <p class="text-start custom-padding-title2 title2">The Cayenne Platinum Edition.</p>
                             </div>
                         </div>
@@ -116,9 +100,11 @@
                                 <img src="images/part1-3.webp" class="d-block w-100">
                             </picture>
                             <div class="carousel-caption">
-                                <h5 class="text-start title1"><i class="text-danger bi bi-chevron-right"></i>For the
-                                    sport of it
-                                </h5>
+                                <div class="d-flex">
+                                    <p><i class="text-danger bi bi-chevron-right title1"></i></p>
+                                    <h5 class="text-start title1">For the sport of it
+                                    </h5>
+                                </div>
                                 <p class="text-start custom-padding-title2 title2">The 718 Cayman S.</p>
                             </div>
                         </div>
@@ -128,9 +114,11 @@
                                 <img src="images/part1-4.webp" class="d-block w-100">
                             </picture>
                             <div class="carousel-caption">
-                                <h5 class="text-start title1"><i class="text-danger bi bi-chevron-right"></i>Soul,
-                                    electrified.
-                                </h5>
+                                <div class="d-flex">
+                                    <p><i class="text-danger bi bi-chevron-right title1"></i></p>
+                                    <h5 class="text-start title1">Soul, electrified.
+                                    </h5>
+                                </div>
                                 <p class="text-start custom-padding-title2 title2">The Taycan Turbo.</p>
                             </div>
                         </div>

@@ -10,6 +10,22 @@
     height: 65px;
 }
 
+.nav-link {
+    color: #0c0c0c !important;
+}
+
+.nav-link:hover {
+    color: #d5001c !important;
+}
+
+#navbarSupportedContent {
+    margin-right: 2vw;
+}
+
+.no-hover:hover {
+    color: #0c0c0c !important;
+}
+
 /* part1 */
 
 .carousel-caption:hover {
