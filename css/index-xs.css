@@ -31,34 +31,15 @@
     color: #d5001c;
 }
 
-/* END */
-
-.gray-line {
-    height: 1px;
-    width: 100px;
-    background-color: #d2d3d4;
+.custom-padding-accordion1{
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
-.footer-link {
-    transition: all 500ms ease 0s;
+.custom-padding-accordion2{
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
-.footer-link:hover {
-    text-decoration: none;
-    color: #d5001c !important;
-}
 
-.black {
-    background-color: #191f22;
-}
 
-.share-page {
-    height: 50px;
-    width: 100%;
-    text-decoration: none;
-    line-height: 50px;
-}
-
-.gray {
-    background-color: #313639;
-}

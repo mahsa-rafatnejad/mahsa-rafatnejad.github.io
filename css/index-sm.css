@@ -30,3 +30,17 @@
 .pic:hover .title3 {
     color: #d5001c;
 }
+
+.custom-padding-part6{
+    padding-left: 30px;
+}
+
+.custom-padding-accordion1 {
+    padding-left: 28px;
+    padding-right: 4px;
+}
+
+.custom-padding-accordion2 {
+    padding-left: 4px;
+    padding-right: 28px;
+}

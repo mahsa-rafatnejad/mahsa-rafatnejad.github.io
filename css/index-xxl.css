@@ -25,3 +25,13 @@
     top: 0px;
     left: 5px;
 }
+
+.custom-padding-accordion1 {
+    padding-left: 28px;
+    padding-right: 4px;
+}
+
+.custom-padding-accordion2 {
+    padding-left: 4px;
+    padding-right: 28px;
+}
