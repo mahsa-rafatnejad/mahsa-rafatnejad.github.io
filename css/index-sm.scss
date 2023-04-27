@@ -1,0 +1,50 @@
+@import "variables";
+
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.title1 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 20px;
+}
+
+.custom-padding-title2 {
+    padding-left: 35px;
+}
+
+.parts-title {
+    font-size: 26px;
+}
+
+@mixin custom_transition($tp, $tdu, $tt, $tde) {
+    -webkit-animation: $tp $tdu $tt $tde;
+    -moz-animation: $tp $tdu $tt $tde;
+    transition: $tp $tdu $tt $tde;
+}
+
+#custom_transition {
+    -webkit-animation: all 500ms ease 0s;
+    -moz-animation: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+
+.title3 {
+    font-size: 22px;
+    bottom: 0;
+    left: 5px;
+    @extend #custom_transition;
+}
+
+.pic:hover .title3 {
+    color: $color_red;
+}
+
+.custom-padding-part6 {
+    padding-left: 30px;
+}

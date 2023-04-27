@@ -1,46 +1,41 @@
 .logo {
-    width: 120px;
-    height: 80px;
+  width: 120px;
+  height: 80px;
 }
 
 .title1 {
-    font-size: 34px;
-    font-weight: bold;
+  font-size: 34px;
+  font-weight: bold;
 }
 
 .title2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .custom-padding-title2 {
-    padding-left: 35px;
+  padding-left: 35px;
 }
 
 .parts-title {
-    font-size: 26px;
+  font-size: 26px;
+}
+
+#custom_transition, .title3 {
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .title3 {
-    font-size: 22px;
-    bottom: 0;
-    left: 5px;
-    transition: all 500ms ease 0s;
+  font-size: 22px;
+  bottom: 0;
+  left: 5px;
 }
 
 .pic:hover .title3 {
-    color: #d5001c;
+  color: #d5001c;
 }
 
-.custom-padding-part6{
-    padding-left: 30px;
-}
-
-.custom-margin-accordion1 {
-    margin-left: 28px;
-    margin-right: 4px;
-}
-
-.custom-margin-accordion2 {
-    margin-left: 4px;
-    margin-right: 28px;
+.custom-padding-part6 {
+  padding-left: 30px;
 }

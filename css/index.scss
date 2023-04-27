@@ -1,0 +1,403 @@
+@import "variables";
+
+/* header */
+
+.logo {
+    z-index: 1;
+    top: 0;
+    left: 7vw;
+}
+
+.navbar {
+    height: 65px;
+}
+
+.nav-link {
+    color: $color_black1 !important;
+}
+
+.nav-link:hover {
+    color: $color_red !important;
+}
+
+#navbarSupportedContent {
+    margin-right: 2vw;
+}
+
+.no-hover:hover {
+    color: $color_black1 !important;
+}
+
+/* part1 */
+
+.carousel-caption:hover {
+    color: $color_red;
+}
+
+#custom_transition {
+    -webkit-animation: all 500ms ease 0s;
+    -moz-animation: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+
+.carousel-caption {
+    @extend #custom_transition;
+    font-weight: bold !important;
+    bottom: 40px;
+    left: 10px;
+    padding: 0;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.custom-margin-bottom {
+    margin-bottom: 98px !important;
+}
+
+.title2 {
+    font-weight: 700;
+}
+
+/* part2 */
+
+.parts-title {
+    font-weight: 600;
+}
+
+.title3 {
+    text-decoration: none;
+    color: $color_white;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.white-button {
+    width: 165px;
+    height: 50px;
+    @include custom_transition(all, 500ms, ease, 0s);
+    z-index: 1;
+    bottom: 20px;
+    left: 20px;
+}
+
+.white-button:hover {
+    background-color: $color_red !important;
+    color: $color_white !important;
+}
+
+.red-button {
+    width: 132px;
+    height: 48px;
+    @include custom_transition(all, 500ms, ease, 0s);
+    z-index: 1;
+    bottom: 21px;
+    left: 200px;
+}
+
+.red-button:hover {
+    color: $color_red;
+    background-color: $color-transparent;
+    border-color: $color_red;
+}
+
+/* part3 */
+
+.gray-button {
+    height: 50px;
+    background-color: $color_gray;
+    @extend #custom_transition;
+    margin-bottom: -10px;
+
+}
+
+.car:hover .gray-button {
+    background-color: $color_red;
+}
+
+.gray-button:hover {
+    background-color: $color_red;
+}
+
+.carousel-caption2 {
+    margin-bottom: -30px;
+}
+
+/* part4 */
+
+.title4 {
+    text-decoration: none;
+    color: $color_white;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+    @extend #custom_transition;
+}
+
+.pic:hover .title4 {
+    color: $color_red;
+}
+
+.padding12 {
+    padding: 0 12px;
+}
+
+/* part5 */
+
+.padding-end-half {
+    padding-right: 2px;
+}
+
+.padding-start-half {
+    padding-left: 2px;
+}
+
+#gray_box {
+    width: 50px;
+    height: 50px;
+    background-color: $color_gray;
+}
+
+.gray-box-part5 {
+    @extend #gray_box;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.icon {
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.brightness {
+    @extend #custom_transition;
+}
+
+.box-small:hover .brightness {
+    filter: brightness(30%);
+}
+
+.gradiant {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    @extend #custom_transition;
+}
+
+.box-big:hover .gradiant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%), rgba(0, 0, 0, 90%));
+}
+
+.circle-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.text-box-big {
+    z-index: 2;
+    bottom: 10px;
+    left: 20px;
+    line-height: 15px;
+    display: none;
+    @extend #custom_transition;
+}
+
+.box-big:hover .text-box-big {
+    display: block;
+}
+
+.box-small {
+    @extend #custom_transition;
+}
+
+.text-box-small {
+    z-index: 2;
+    top: 30px;
+    left: 20px;
+    line-height: 15px;
+    display: none;
+    @extend #custom_transition;
+}
+
+.box-small:hover .text-box-small {
+    display: block;
+}
+
+.custom-width {
+    width: 133px;
+}
+
+/* part6 */
+
+.part6-link {
+    text-decoration: none;
+    @extend #custom_transition;
+}
+
+.red-line {
+    height: 4px;
+    width: 100%;
+    bottom: 24px;
+    @extend #custom_transition;
+}
+
+.red-box:hover .part6-link {
+    color: $color_red !important;
+}
+
+.red-box:hover .red-line {
+    display: block !important;
+}
+
+/* footer-part1 */
+
+.footer-gray-line {
+    height: 1px;
+    background-color: $color_light_gray;
+}
+
+.link {
+    text-decoration: none;
+    color: $color_black1;
+}
+
+.link:hover {
+    color: $color_red;
+}
+
+.gray-box-footer {
+    @extend #gray_box;
+}
+
+.share-page {
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: $color_gray;
+    @extend #custom_transition;
+}
+
+.share-page-box {
+    height: 100px;
+    flex-wrap: wrap !important;
+}
+
+.facebook:hover {
+    background-color: $color_facebook;
+}
+
+.youtube:hover {
+    background-color: $color_youtube;
+}
+
+.pinterest:hover {
+    background-color: $color_pinterest;
+}
+
+.instagram:hover {
+    background-color: $color_instagram;
+}
+
+.linkedin:hover {
+    background-color: $color_linkedin;
+}
+
+.facebook,
+.youtube,
+.pinterest,
+.instagram,
+.linkedin {
+    @extend #custom_transition;
+}
+
+.share-page:hover {
+    background-color: $color_red;
+}
+
+.share-page:hover .share-page-box-hover {
+    display: block !important;
+}
+
+.facebook-color {
+    background-color: $color_facebook;
+}
+
+.twitter-color {
+    background-color: $color_twitter;
+}
+
+.skype-color {
+    background-color: $color_skype;
+}
+
+.linkedin-color {
+    background-color: $color_linkedin;
+}
+
+.pinterest-color {
+    background-color: $color_pinterest;
+}
+
+.facebook-color,
+.youtube-color,
+.pinterest-color,
+.instagram-color,
+.linkedin-color {
+    @extend #custom_transition;
+}
+
+.facebook-color:hover,
+.twitter-color:hover,
+.skype-color:hover,
+.linkedin-color:hover,
+.pinterest-color:hover {
+    filter: opacity(80%);
+}
+
+.footer-link {
+    @extend #custom_transition;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: $color_red !important;
+}
+
+.black {
+    background-color: $color_black2;
+}
+
+/* footer-part2 */
+
+.dropdown-toggle {
+    height: 50px;
+
+}
+
+.footer-link {
+    @extend #custom_transition;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: $color_red !important;
+}
+
+.line-footer {
+    height: 1px;
+    width: 90%;
+}
+
+.gray-background {
+    background-color: $color_gray;
+}
+
+.footer {
+    width: 90%;
+}

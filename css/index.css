@@ -1,346 +1,318 @@
 /* header */
-
 .logo {
-    z-index: 1;
-    top: 0;
-    left: 7vw;
+  z-index: 1;
+  top: 0;
+  left: 7vw;
 }
 
 .navbar {
-    height: 65px;
+  height: 65px;
 }
 
 .nav-link {
-    color: #0c0c0c !important;
+  color: #0c0c0c !important;
 }
 
 .nav-link:hover {
-    color: #d5001c !important;
+  color: #d5001c !important;
 }
 
 #navbarSupportedContent {
-    margin-right: 2vw;
+  margin-right: 2vw;
 }
 
 .no-hover:hover {
-    color: #0c0c0c !important;
+  color: #0c0c0c !important;
 }
 
 /* part1 */
-
 .carousel-caption:hover {
-    color: #d5001c;
+  color: #d5001c;
+}
+
+#custom_transition, .carousel-caption {
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .carousel-caption {
-    transition: all 500ms ease 0s;
-    font-weight: bold !important;
-    bottom: 40px;
-    left: 10px;
-    padding: 0;
+  font-weight: bold !important;
+  bottom: 40px;
+  left: 10px;
+  padding: 0;
 }
 
 .carousel-inner {
-    overflow: visible;
+  overflow: visible;
 }
 
 .custom-margin-bottom {
-    margin-bottom: 98px !important;
+  margin-bottom: 98px !important;
 }
 
 .title2 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* part2 */
-
 .parts-title {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .title3 {
-    text-decoration: none;
-    color: white;
-    padding-left: 15px;
-    font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding-left: 15px;
+  font-weight: 600;
 }
 
 .white-button {
-    width: 165px;
-    height: 50px;
-    transition: all 500ms ease 0s;
-    z-index: 1;
-    bottom: 20px;
-    left: 20px;
+  width: 165px;
+  height: 50px;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  z-index: 1;
+  bottom: 20px;
+  left: 20px;
 }
 
 .white-button:hover {
-    background-color: #d5001c !important;
-    color: white !important;
+  background-color: #d5001c !important;
+  color: white !important;
 }
 
 .red-button {
-    width: 132px;
-    height: 48px;
-    transition: all 500ms ease 0s;
-    z-index: 1;
-    bottom: 21px;
-    left: 200px;
+  width: 132px;
+  height: 48px;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  z-index: 1;
+  bottom: 21px;
+  left: 200px;
 }
 
 .red-button:hover {
-    color: #d5001c;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: #d5001c;
+  color: #d5001c;
+  background-color: transparent;
+  border-color: #d5001c;
 }
 
 /* part3 */
-
 .gray-button {
-    height: 50px;
-    background-color: #313639;
-    transition: all 500ms ease 0s;
-    margin-bottom: -10px;
-
+  height: 50px;
+  background-color: #313639;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
+  margin-bottom: -10px;
 }
 
 .car:hover .gray-button {
-    background-color: #d5001c;
+  background-color: #d5001c;
 }
 
 .gray-button:hover {
-    background-color: #d5001c;
+  background-color: #d5001c;
 }
 
 .carousel-caption2 {
-    margin-bottom: -30px;
+  margin-bottom: -30px;
 }
 
 /* part4 */
-
 .title4 {
-    text-decoration: none;
-    color: white;
-    padding-left: 15px;
-    font-weight: 600;
-    font-size: 20px;
-    bottom: 0;
-    left: 0;
-    transition: all 500ms ease 0s;
+  text-decoration: none;
+  color: white;
+  padding-left: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  bottom: 0;
+  left: 0;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .pic:hover .title4 {
-    color: #d5001c;
+  color: #d5001c;
 }
 
 .padding12 {
-    padding: 0 12px;
+  padding: 0 12px;
 }
 
 /* part5 */
-
 .padding-end-half {
-    padding-right: 2px;
+  padding-right: 2px;
 }
 
 .padding-start-half {
-    padding-left: 2px;
+  padding-left: 2px;
 }
 
-.gray-box1 {
-    width: 50px;
-    height: 50px;
-    background-color: #323639;
-    bottom: 0px;
-    right: 0px;
-    z-index: 2;
+#gray_box, .gray-box-part5, .gray-box-footer {
+  width: 50px;
+  height: 50px;
+  background-color: #313639;
 }
 
-.gray-box2 {
-    width: 50px;
-    height: 50px;
-    background-color: #323639;
-    bottom: 0px;
-    right: 0px;
-    z-index: 2;
-}
-
-.gray-box3 {
-    width: 50px;
-    height: 50px;
-    background-color: #323639;
-    bottom: 0px;
-    right: 0px;
-    z-index: 2;
-}
-
-.gray-box4 {
-    width: 50px;
-    height: 50px;
-    background-color: #323639;
-    bottom: 0px;
-    right: 0px;
-    z-index: 2;
-}
-
-.gray-box5 {
-    width: 50px;
-    height: 50px;
-    background-color: #323639;
-    bottom: 0px;
-    right: 0px;
-    z-index: 2;
-}
-
-.gray-box6 {
-    width: 50px;
-    height: 50px;
-    background-color: #323639;
-    bottom: 0px;
-    right: 0px;
-    z-index: 2;
+.gray-box-part5 {
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
 }
 
 .icon {
-    line-height: 50px;
-    text-align: center;
-    font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .brightness {
-    transition: all 500ms ease 0s;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .box-small:hover .brightness {
-    filter: brightness(30%);
+  filter: brightness(30%);
 }
 
 .gradiant {
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    transition: all 500ms ease 0s !important;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .box-big:hover .gradiant {
-    background-image: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%), rgba(0, 0, 0, 90%));
+  background-image: linear-gradient(transparent, transparent, black);
 }
 
 .circle-logo {
-    width: 30px;
-    height: 30px;
-    margin-top: -5px;
+  width: 30px;
+  height: 30px;
+  margin-top: -5px;
 }
 
 .text-box-big {
-    z-index: 2;
-    bottom: 10px;
-    left: 20px;
-    line-height: 15px;
-    display: none;
-    transition: all 500ms ease 0s;
+  z-index: 2;
+  bottom: 10px;
+  left: 20px;
+  line-height: 15px;
+  display: none;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .box-big:hover .text-box-big {
-    display: block;
+  display: block;
 }
 
 .box-small {
-    transition: all 2s ease 0s;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .text-box-small {
-    z-index: 2;
-    top: 30px;
-    left: 20px;
-    line-height: 15px;
-    display: none;
-    transition: all 500ms ease 0s;
+  z-index: 2;
+  top: 30px;
+  left: 20px;
+  line-height: 15px;
+  display: none;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .box-small:hover .text-box-small {
-    display: block;
+  display: block;
 }
 
 .custom-width {
-    width: 133px;
+  width: 133px;
 }
 
 /* part6 */
-
 .part6-link {
-    text-decoration: none;
-    transition: all 500ms ease 0s;
+  text-decoration: none;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .red-line {
-    height: 4px;
-    width: 100%;
-    bottom: 24px;
-    transition: all 500ms ease 0s;
+  height: 4px;
+  width: 100%;
+  bottom: 24px;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .red-box:hover .part6-link {
-    color: #d5001c !important;
+  color: #d5001c !important;
 }
 
 .red-box:hover .red-line {
-    display: block !important;
+  display: block !important;
 }
 
 /* footer-part1 */
-
 .footer-gray-line {
-    height: 1px;
-    background-color: #d2d3d4;
+  height: 1px;
+  background-color: #d2d3d4;
 }
 
 .link {
-    text-decoration: none;
-    color: #0c0c0c;
+  text-decoration: none;
+  color: #0c0c0c;
 }
 
 .link:hover {
-    color: #d5001c;
-}
-
-.gray-box {
-    width: 50px;
-    height: 50px;
-    background-color: #313639;
+  color: #d5001c;
 }
 
 .share-page {
-    height: 50px;
-    text-decoration: none;
-    line-height: 50px;
-    background-color: #313639;
-    transition: all 500ms ease 0s;
+  height: 50px;
+  text-decoration: none;
+  line-height: 50px;
+  background-color: #313639;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .share-page-box {
-    height: 100px;
-    flex-wrap: wrap !important;
+  height: 100px;
+  flex-wrap: wrap !important;
 }
 
 .facebook:hover {
-    background-color: rgb(39, 83, 167);
+  background-color: #2753a7;
 }
 
 .youtube:hover {
-    background-color: rgb(205, 32, 31);
+  background-color: #cd201f;
 }
 
 .pinterest:hover {
-    background-color: rgb(205, 36, 43);
+  background-color: #cd242b;
 }
 
 .instagram:hover {
-    background-color: rgb(50, 97, 137);
+  background-color: #326189;
 }
 
 .linkdin:hover {
-    background-color: rgb(2, 116, 179);
+  background-color: #0274b3;
 }
 
 .facebook,
@@ -348,35 +320,37 @@
 .pinterest,
 .instagram,
 .linkdin {
-    transition: all 500ms ease 0s;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .share-page:hover {
-    background-color: #d5001c;
+  background-color: #d5001c;
 }
 
 .share-page:hover .share-page-box-hover {
-    display: block !important;
+  display: block !important;
 }
 
 .facebook-color {
-    background-color: rgb(39, 83, 167);
+  background-color: #2753a7;
 }
 
 .twitter-color {
-    background-color: rgb(85, 172, 238);
+  background-color: #55acee;
 }
 
 .skype-color {
-    background-color: rgb(0, 0, 0);
+  background-color: black;
 }
 
 .linkedin-color {
-    background-color: rgb(2, 116, 179);
+  background-color: #0274b3;
 }
 
 .pinterest-color {
-    background-color: rgb(205, 36, 43);
+  background-color: #cd242b;
 }
 
 .facebook-color,
@@ -384,7 +358,9 @@
 .pinterest-color,
 .instagram-color,
 .linkdin-color {
-    transition: all 500ms ease 0s;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .facebook-color:hover,
@@ -392,51 +368,53 @@
 .skype-color:hover,
 .linkedin-color:hover,
 .pinterest-color:hover {
-    filter: opacity(80%);
+  filter: opacity(80%);
 }
 
 .share-page:hover .share-page-box-hover {
-    display: block;
+  display: block;
 }
 
 .footer-link {
-    transition: all 500ms ease 0s;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .footer-link:hover {
-    text-decoration: none;
-    color: #d5001c !important;
+  text-decoration: none;
+  color: #d5001c !important;
 }
 
 .black {
-    background-color: #191f22;
+  background-color: #191f22;
 }
 
 /* footer-part2 */
-
 .dropdown-toggle {
-    height: 50px;
-
+  height: 50px;
 }
 
 .footer-link {
-    transition: all 500ms ease 0s;
+  -webkit-animation: all 500ms ease 0s;
+  -moz-animation: all 500ms ease 0s;
+  transition: all 500ms ease 0s;
 }
 
 .footer-link:hover {
-    text-decoration: none;
-    color: #d5001c !important;
+  text-decoration: none;
+  color: #d5001c !important;
 }
 
 .line-footer {
-    height: 1px;
-    width: 90%;
+  height: 1px;
+  width: 90%;
 }
 
 .gray-background {
-    background-color: #313639;
+  background-color: #313639;
 }
 
 .footer {
-    width: 90%;
+  width: 90%;
 }

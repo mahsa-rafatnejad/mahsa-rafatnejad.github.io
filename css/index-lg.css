@@ -1,45 +1,35 @@
 .logo {
-    width: 130px;
-    height: 86px;
+  width: 130px;
+  height: 86px;
 }
 
 .title1 {
-    font-size: 42px;
-    font-weight: bold;
+  font-size: 42px;
+  font-weight: bold;
 }
 
 .title2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .custom-padding-title2 {
-    padding-left: 45px;
+  padding-left: 45px;
 }
 
 .parts-title {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .title3 {
-    font-size: 30px;
-    top: 0px;
-    left: 5px;
+  font-size: 30px;
+  top: 0px;
+  left: 5px;
 }
 
 .custom-padding-part6 {
-    padding-left: 240px;
-}
-
-.custom-margin-accordion1 {
-    margin-left: 28px;
-    margin-right: 4px;
-}
-
-.custom-margin-accordion2 {
-    margin-left: 4px;
-    margin-right: 28px;
+  padding-left: 240px;
 }
 
 .share-page-box {
-    height: 150px;
+  height: 150px;
 }

@@ -1,0 +1,40 @@
+@import "variables";
+
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.title1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title2 {
+    font-size: 20px;
+}
+
+.custom-padding-title2 {
+    padding-left: 30px;
+}
+
+.parts-title {
+    font-size: 24px;
+}
+
+#custom_transition {
+    -webkit-animation: all 500ms ease 0s;
+    -moz-animation: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+
+.title3 {
+    font-size: 20px;
+    bottom: 0;
+    left: 5px;
+    @extend #custom_transition;
+}
+
+.pic:hover .title3 {
+    color: $color_red;
+}
