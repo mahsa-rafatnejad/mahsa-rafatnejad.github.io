@@ -151,7 +151,7 @@
     width: 50px;
     height: 50px;
     background-color: #323639;
-    bottom: 4px;
+    bottom: 0px;
     right: 0px;
     z-index: 2;
 }
@@ -161,7 +161,7 @@
     height: 50px;
     background-color: #323639;
     bottom: 0px;
-    right: 4px;
+    right: 0px;
     z-index: 2;
 }
 
@@ -178,8 +178,8 @@
     width: 50px;
     height: 50px;
     background-color: #323639;
-    bottom: 4px;
-    right: 4px;
+    bottom: 0px;
+    right: 0px;
     z-index: 2;
 }
 
@@ -187,7 +187,7 @@
     width: 50px;
     height: 50px;
     background-color: #323639;
-    bottom: 4px;
+    bottom: 0px;
     right: 0px;
     z-index: 2;
 }
@@ -208,7 +208,7 @@
 }
 
 .brightness {
-    /* transition: all 2s ease 0s; */
+    transition: all 500ms ease 0s;
 }
 
 .box-small:hover .brightness {
@@ -218,8 +218,8 @@
 .gradiant {
     z-index: 1;
     width: 100%;
-    height: 99%;
-    /* transition: all 2s ease 0s !important; */
+    height: 100%;
+    transition: all 500ms ease 0s !important;
 }
 
 .box-big:hover .gradiant {
@@ -238,7 +238,7 @@
     left: 20px;
     line-height: 15px;
     display: none;
-    /* transition: all 500ms ease 0s; */
+    transition: all 500ms ease 0s;
 }
 
 .box-big:hover .text-box-big {
@@ -255,7 +255,7 @@
     left: 20px;
     line-height: 15px;
     display: none;
-    /* transition: all 500ms ease 0s; */
+    transition: all 500ms ease 0s;
 }
 
 .box-small:hover .text-box-small {
@@ -318,6 +318,11 @@
     transition: all 500ms ease 0s;
 }
 
+.share-page-box {
+    height: 100px;
+    flex-wrap: wrap !important;
+}
+
 .facebook:hover {
     background-color: rgb(39, 83, 167);
 }
@@ -346,16 +351,11 @@
     transition: all 500ms ease 0s;
 }
 
-.share-page-box {
-    height: 100px;
-    width: 100%;
-}
-
 .share-page:hover {
     background-color: #d5001c;
 }
 
-.share-page:hover .share-page-box {
+.share-page:hover .share-page-box-hover {
     display: block !important;
 }
 
@@ -395,7 +395,7 @@
     filter: opacity(80%);
 }
 
-.share-page:hover .share-page-box-hover{
+.share-page:hover .share-page-box-hover {
     display: block;
 }
 
@@ -414,6 +414,11 @@
 
 /* footer-part2 */
 
+.dropdown-toggle {
+    height: 50px;
+
+}
+
 .footer-link {
     transition: all 500ms ease 0s;
 }
@@ -423,9 +428,15 @@
     color: #d5001c !important;
 }
 
-.line-footer{
+.line-footer {
     height: 1px;
+    width: 90%;
 }
-.gray-background{
+
+.gray-background {
     background-color: #313639;
+}
+
+.footer {
+    width: 90%;
 }

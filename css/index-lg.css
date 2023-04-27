@@ -30,12 +30,16 @@
     padding-left: 240px;
 }
 
-.custom-padding-accordion1 {
-    padding-left: 28px;
-    padding-right: 4px;
+.custom-margin-accordion1 {
+    margin-left: 28px;
+    margin-right: 4px;
 }
 
-.custom-padding-accordion2 {
-    padding-left: 4px;
-    padding-right: 28px;
+.custom-margin-accordion2 {
+    margin-left: 4px;
+    margin-right: 28px;
+}
+
+.share-page-box {
+    height: 150px;
 }
