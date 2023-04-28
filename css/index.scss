@@ -35,8 +35,8 @@
 }
 
 #custom_transition {
-    -webkit-animation: all 500ms ease 0s;
-    -moz-animation: all 500ms ease 0s;
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
 }
 

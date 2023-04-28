@@ -22,15 +22,9 @@
     font-size: 26px;
 }
 
-@mixin custom_transition($tp, $tdu, $tt, $tde) {
-    -webkit-animation: $tp $tdu $tt $tde;
-    -moz-animation: $tp $tdu $tt $tde;
-    transition: $tp $tdu $tt $tde;
-}
-
 #custom_transition {
-    -webkit-animation: all 500ms ease 0s;
-    -moz-animation: all 500ms ease 0s;
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
     transition: all 500ms ease 0s;
 }
 
